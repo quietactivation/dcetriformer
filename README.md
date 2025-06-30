@@ -1,7 +1,7 @@
 Hey there! This is the official pytorch implementation of DCEtriformer :)
 ____
 # DCEtriformer
-DCEtriformer is a transformer-based model for synthesizing early- and late-phase DCE-MRI images of the prostate from non-contrast inputs (T2W, ADC, and pre-contrast DCE). It introduces a hybrid attention mechanism combining triangular and rectangular self-attention with variable window sizes, enabling better spatial adaptability and contrast-aware synthesis.
+DCEtriformer is a transformer-based model for synthesizing early- and late-phase DCE-MRI images of the prostate from non-contrast inputs (T2W, ADC, and pre-contrast DCE). It introduces a hybrid attention mechanism combining triangular and rectangular self-attention with variable window sizes, enabling better directional focus and contrast-aware synthesis.
 ____
 ##  Overview
 - **Input**: T2-weighted (T2W), Apparent Diffusion Coefficient (ADC), and Pre-contrast DCE images
